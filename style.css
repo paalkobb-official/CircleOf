@@ -1,0 +1,141 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+:root {
+  --bg:            #0f0e11;
+  --bg-card:       #181720;
+  --border:        rgba(255,255,255,0.08);
+  --text-primary:  #ede9e0;
+  --text-secondary:#9b96a8;
+  --text-faint:    #504c5c;
+  --accent:        #c8a96e;
+  --font-display:  'Cormorant Garamond', Georgia, serif;
+  --font-body:     'DM Sans', 'Helvetica Neue', sans-serif;
+ 
+  /* Change these two values to scale everything */
+  --r-outer:       40vh;   /* diminished ring */
+  --r-middle:      30vh;   /* minor ring */
+  --r-inner:       20vh;   /* major notes ring */
+  --offset:        -90deg;
+}
+ 
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+/* ── Circle container ─────────────────────────────────────────────────────── */
+.circle {
+  position: relative;
+  width: var(--circle-size);
+  height: var(--circle-size);
+}
+ 
+/* ── Shared label base ────────────────────────────────────────────────────── */
+/* All three rings use the same positioning trick:
+   1. Start at center (top: 50%, left: 50%)
+   2. Rotate to the right angle around that center point
+   3. Push outward along the rotated axis with translateX
+   4. Rotate back so the text stays upright */
+.note,
+.minor,
+.diminished {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+ 
+/* ── Outer ring: diminished ───────────────────────────────────────────────── */
+.diminished {
+  transform:
+    rotate(calc(var(--angle) + var(--offset)))
+    translateX(var(--r-outer))
+    rotate(calc(-1 * calc(var(--angle) + var(--offset))))
+    translate(-50%, -50%);
+ 
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+ 
+/* ── Middle ring: relative minors ────────────────────────────────────────── */
+.minor {
+  transform:
+    rotate(calc(var(--angle) + var(--offset)))
+    translateX(var(--r-middle))
+    rotate(calc(-1 * calc(var(--angle) + var(--offset))))
+    translate(-50%, -50%);
+ 
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+ 
+/* ── Inner ring: major notes ─────────────────────────────────────────────── */
+.note {
+  transform:
+    rotate(calc(var(--angle) + var(--offset)))
+    translateX(var(--r-inner))
+    rotate(calc(-1 * calc(var(--angle) + var(--offset))))
+    translate(-50%, -50%);
+ 
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+ 
+/* ── Decorative rings ────────────────────────────────────────────────────── */
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  pointer-events: none;
+}
+ 
+/* ── Center label ────────────────────────────────────────────────────────── */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+ 
+.center-main {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+  display: block;
+}
+ 
+.center-sub {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  letter-spacing: 0.14em;
+  display: block;
+}
