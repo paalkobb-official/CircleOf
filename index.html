@@ -5,55 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Circle of Fifths</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hover.css">
 </head>
 <body>
- 
-  <div class="circle">
- 
- 
-    <!-- Outer ring: diminished chords -->
-    <span class="diminished" style="--angle: 0deg">B°</span>
-    <span class="diminished" style="--angle: 30deg">F♯°</span>
-    <span class="diminished" style="--angle: 60deg">C♯°</span>
-    <span class="diminished" style="--angle: 90deg">G♯°</span>
-    <span class="diminished" style="--angle: 120deg">D♯°</span>
-    <span class="diminished" style="--angle: 150deg">A♯°</span>
-    <span class="diminished" style="--angle: 180deg">E♯°</span>
-    <span class="diminished" style="--angle: 210deg">C°</span>
-    <span class="diminished" style="--angle: 240deg">G°</span>
-    <span class="diminished" style="--angle: 270deg">D°</span>
-    <span class="diminished" style="--angle: 300deg">A°</span>
-    <span class="diminished" style="--angle: 330deg">E°</span>
- 
-    <!-- Middle ring: relative minors -->
-    <span class="minor" style="--angle: 0deg">Am</span>
-    <span class="minor" style="--angle: 30deg">Em</span>
-    <span class="minor" style="--angle: 60deg">Bm</span>
-    <span class="minor" style="--angle: 90deg">F♯m</span>
-    <span class="minor" style="--angle: 120deg">C♯m</span>
-    <span class="minor" style="--angle: 150deg">G♯m</span>
-    <span class="minor" style="--angle: 180deg">D♯m</span>
-    <span class="minor" style="--angle: 210deg">B♭m</span>
-    <span class="minor" style="--angle: 240deg">Fm</span>
-    <span class="minor" style="--angle: 270deg">Cm</span>
-    <span class="minor" style="--angle: 300deg">Gm</span>
-    <span class="minor" style="--angle: 330deg">Dm</span>
- 
+
+  <!-- Radio buttons must come first in the DOM so ~ can reach siblings -->
+  <input type="radio" name="mode" id="mode-ionian" checked>
+  <input type="radio" name="mode" id="mode-lydian">
+
+  <section class="circle">
+
     <!-- Inner ring: major notes -->
-    <span class="note" style="--angle: 0deg">C</span>
-    <span class="note" style="--angle: 30deg">G</span>
-    <span class="note" style="--angle: 60deg">D</span>
-    <span class="note" style="--angle: 90deg">A</span>
-    <span class="note" style="--angle: 120deg">E</span>
-    <span class="note" style="--angle: 150deg">B</span>
-    <span class="note" style="--angle: 180deg">F♯</span>
-    <span class="note" style="--angle: 210deg">D♭</span>
-    <span class="note" style="--angle: 240deg">A♭</span>
-    <span class="note" style="--angle: 270deg">E♭</span>
-    <span class="note" style="--angle: 300deg">B♭</span>
-    <span class="note" style="--angle: 330deg">F</span>
- 
-  </div>
- 
+    <span class="note ionian-C lydian-C lydian-F-related ionian-G-related ionian-F-related" style="--angle: 0deg" tabindex="0">C</span>
+    <span class="note ionian-G lydian-G lydian-C-related lydian-Bb-related ionian-D-related ionian-C-related" style="--angle: 30deg" tabindex="0">G</span>
+    <span class="note ionian-D lydian-D lydian-G-related lydian-C-related ionian-A-related ionian-G-related" style="--angle: 60deg" tabindex="0">D</span>
+    <span class="note ionian-A lydian-A lydian-D-related lydian-G-related ionian-E-related ionian-D-related" style="--angle: 90deg" tabindex="0">A</span>
+    <span class="note ionian-E lydian-E lydian-A-related lydian-D-related ionian-B-related ionian-A-related" style="--angle: 120deg" tabindex="0">E</span>
+    <span class="note ionian-B lydian-B lydian-E-related lydian-A-related ionian-Fs-related ionian-E-related" style="--angle: 150deg" tabindex="0">B</span>
+    <span class="note ionian-Fs lydian-Fs lydian-B-related lydian-E-related ionian-Db-related ionian-B-related" style="--angle: 180deg" tabindex="0">F♯</span>
+    <span class="note ionian-Db lydian-Db lydian-Fs-related lydian-B-related ionian-Ab-related ionian-Fs-related" style="--angle: 210deg" tabindex="0">D♭</span>
+    <span class="note ionian-Ab lydian-Ab lydian-Db-related lydian-Fs-related ionian-Eb-related ionian-Db-related" style="--angle: 240deg" tabindex="0">A♭</span>
+    <span class="note ionian-Eb lydian-Eb lydian-Ab-related lydian-Db-related ionian-Bb-related ionian-Ab-related" style="--angle: 270deg" tabindex="0">E♭</span>
+    <span class="note ionian-Bb lydian-Bb lydian-Eb-related lydian-Ab-related ionian-F-related ionian-Eb-related" style="--angle: 300deg" tabindex="0">B♭</span>
+    <span class="note ionian-F lydian-F lydian-Bb-related lydian-Eb-related ionian-C-related ionian-Bb-related" style="--angle: 330deg" tabindex="0">F</span>
+
+    <!-- Middle ring: relative minors -->
+    <span class="minor ionian-C-related ionian-G-related ionian-F-related lydian-C-related lydian-F-related lydian-Bb-related" style="--angle: 0deg" tabindex="0">Am</span>
+    <span class="minor ionian-G-related ionian-D-related ionian-C-related lydian-C-related lydian-G-related lydian-F-related" style="--angle: 30deg" tabindex="0">Em</span>
+    <span class="minor ionian-D-related ionian-A-related ionian-G-related lydian-C-related lydian-D-related lydian-G-related" style="--angle: 60deg" tabindex="0">Bm</span>
+    <span class="minor ionian-A-related ionian-E-related ionian-D-related lydian-D-related lydian-A-related" style="--angle: 90deg" tabindex="0">F♯m</span>
+    <span class="minor ionian-E-related ionian-B-related ionian-A-related lydian-A-related lydian-E-related lydian-D-related" style="--angle: 120deg" tabindex="0">C♯m</span>
+    <span class="minor ionian-B-related ionian-Fs-related ionian-E-related lydian-E-related lydian-B-related lydian-A-related" style="--angle: 150deg" tabindex="0">G♯m</span>
+    <span class="minor ionian-Fs-related ionian-Db-related ionian-B-related lydian-B-related lydian-Fs-related lydian-E-related" style="--angle: 180deg" tabindex="0">D♯m</span>
+    <span class="minor ionian-Db-related ionian-Ab-related ionian-Fs-related lydian-Fs-related lydian-Db-related lydian-B-related" style="--angle: 210deg" tabindex="0">B♭m</span>
+    <span class="minor ionian-Ab-related ionian-Eb-related ionian-Db-related lydian-Db-related lydian-Ab-related lydian-Fs-related" style="--angle: 240deg" tabindex="0">Fm</span>
+    <span class="minor ionian-Eb-related ionian-Bb-related ionian-Ab-related lydian-Ab-related lydian-Eb-related lydian-Db-related" style="--angle: 270deg" tabindex="0">Cm</span>
+    <span class="minor ionian-Bb-related ionian-F-related ionian-Eb-related lydian-Eb-related lydian-Bb-related lydian-Ab-related" style="--angle: 300deg" tabindex="0">Gm</span>
+    <span class="minor ionian-F-related ionian-C-related ionian-Bb-related lydian-Bb-related lydian-F-related lydian-Eb-related" style="--angle: 330deg" tabindex="0">Dm</span>
+
+    <!-- Outer ring: diminished chords -->
+    <!-- Lydian dim is one step CW from the key -->
+    <span class="diminished ionian-C-related lydian-F-related" style="--angle: 0deg" tabindex="0">B°</span>
+    <span class="diminished ionian-G-related lydian-C-related" style="--angle: 30deg" tabindex="0">F♯°</span>
+    <span class="diminished ionian-D-related lydian-G-related" style="--angle: 60deg" tabindex="0">C♯°</span>
+    <span class="diminished ionian-A-related lydian-D-related" style="--angle: 90deg" tabindex="0">G♯°</span>
+    <span class="diminished ionian-E-related lydian-A-related" style="--angle: 120deg" tabindex="0">D♯°</span>
+    <span class="diminished ionian-B-related lydian-E-related" style="--angle: 150deg" tabindex="0">A♯°</span>
+    <span class="diminished ionian-Fs-related lydian-B-related" style="--angle: 180deg" tabindex="0">E♯°</span>
+    <span class="diminished ionian-Db-related lydian-Fs-related" style="--angle: 210deg" tabindex="0">C°</span>
+    <span class="diminished ionian-Ab-related lydian-Db-related" style="--angle: 240deg" tabindex="0">G°</span>
+    <span class="diminished ionian-Eb-related lydian-Ab-related" style="--angle: 270deg" tabindex="0">D°</span>
+    <span class="diminished ionian-Bb-related lydian-Eb-related" style="--angle: 300deg" tabindex="0">A°</span>
+    <span class="diminished ionian-F-related lydian-Bb-related" style="--angle: 330deg" tabindex="0">E°</span>
+
+  </section>
+
+  <section class="mode">
+    <label for="mode-ionian" class="mode-label">Ionian</label>
+    <label for="mode-lydian" class="mode-label">Lydian</label>
+  </section>
+
 </body>
 </html>
