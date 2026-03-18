@@ -178,53 +178,53 @@ input[type="radio"] { display: none; }
 #mode-mixolydian:checked ~ .circle:has(.mixolydian-F:is(:hover,:focus)) .mixolydian-F:is(:hover,:focus) { color: red; }
 
 /* ══════════════════════════════════════════════════════════════════════════ */
-/* Dorian                                                                 */
+/* DORIAN                                                                     */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
-#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) .dorian-C-related,
-#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) ~ .mode .dorian-C-related,
-#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) .dorian-C:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) .dorian-Am-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .mode .dorian-Am-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) .dorian-Am:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) .dorian-G-related,
-#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) ~ .mode .dorian-G-related,
-#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) .dorian-G:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) .dorian-Em-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .mode .dorian-Em-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) .dorian-Em:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) .dorian-D-related,
-#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) ~ .mode .dorian-D-related,
-#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) .dorian-D:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) .dorian-Bm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .mode .dorian-Bm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) .dorian-Bm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) .dorian-A-related,
-#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) ~ .mode .dorian-A-related,
-#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) .dorian-A:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) .dorian-Fsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .mode .dorian-Fsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) .dorian-Fsm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) .dorian-E-related,
-#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) ~ .mode .dorian-E-related,
-#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) .dorian-E:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) .dorian-Csm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .mode .dorian-Csm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) .dorian-Csm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) .dorian-B-related,
-#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) ~ .mode .dorian-B-related,
-#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) .dorian-B:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) .dorian-Gsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .mode .dorian-Gsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) .dorian-Gsm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) .dorian-Fs-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) ~ .mode .dorian-Fs-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) .dorian-Fs:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) .dorian-Dsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .mode .dorian-Dsm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) .dorian-Dsm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) .dorian-Db-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) ~ .mode .dorian-Db-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) .dorian-Db:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) .dorian-Bbm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .mode .dorian-Bbm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) .dorian-Bbm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) .dorian-Ab-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) ~ .mode .dorian-Ab-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) .dorian-Ab:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) .dorian-Fm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .mode .dorian-Fm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) .dorian-Fm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) .dorian-Eb-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) ~ .mode .dorian-Eb-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) .dorian-Eb:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) .dorian-Cm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .mode .dorian-Cm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) .dorian-Cm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) .dorian-Bb-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) ~ .mode .dorian-Bb-related,
-#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) .dorian-Bb:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) .dorian-Gm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .mode .dorian-Gm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) .dorian-Gm:is(:hover,:focus) { color: red; }
 
-#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) .dorian-F-related,
-#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) ~ .mode .dorian-F-related,
-#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) .dorian-F:is(:hover,:focus) { color: red; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) .dorian-Dm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .mode .dorian-Dm-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) .dorian-Dm:is(:hover,:focus) { color: red; }
