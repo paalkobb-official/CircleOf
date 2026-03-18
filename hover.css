@@ -335,53 +335,53 @@ input[type="radio"] { display: none; }
 #mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) .phrygian-Dm:is(:hover,:focus) { color: red; }
 
 /* ══════════════════════════════════════════════════════════════════════════ */
-/* LOCRAIN                                                                     */
+/* LOCRIAN                                                                    */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
-#mode-locrain:checked ~ .circle:has(.locrain-Am:is(:hover,:focus)) .locrain-Am-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Am:is(:hover,:focus)) ~ .mode .locrain-Am-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Am:is(:hover,:focus)) .locrain-Am:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Bd:is(:hover,:focus)) .locrain-Bd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Bd:is(:hover,:focus)) ~ .mode .locrain-Bd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Bd:is(:hover,:focus)) .locrain-Bd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Em:is(:hover,:focus)) .locrain-Em-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Em:is(:hover,:focus)) ~ .mode .locrain-Em-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Em:is(:hover,:focus)) .locrain-Em:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Fsd:is(:hover,:focus)) .locrain-Fsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Fsd:is(:hover,:focus)) ~ .mode .locrain-Fsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Fsd:is(:hover,:focus)) .locrain-Fsd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Bm:is(:hover,:focus)) .locrain-Bm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Bm:is(:hover,:focus)) ~ .mode .locrain-Bm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Bm:is(:hover,:focus)) .locrain-Bm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Csd:is(:hover,:focus)) .locrain-Csd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Csd:is(:hover,:focus)) ~ .mode .locrain-Csd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Csd:is(:hover,:focus)) .locrain-Csd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Fsm:is(:hover,:focus)) .locrain-Fsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Fsm:is(:hover,:focus)) ~ .mode .locrain-Fsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Fsm:is(:hover,:focus)) .locrain-Fsm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Gsd:is(:hover,:focus)) .locrain-Gsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Gsd:is(:hover,:focus)) ~ .mode .locrain-Gsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Gsd:is(:hover,:focus)) .locrain-Gsd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Csm:is(:hover,:focus)) .locrain-Csm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Csm:is(:hover,:focus)) ~ .mode .locrain-Csm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Csm:is(:hover,:focus)) .locrain-Csm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Dsd:is(:hover,:focus)) .locrain-Dsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Dsd:is(:hover,:focus)) ~ .mode .locrain-Dsd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Dsd:is(:hover,:focus)) .locrain-Dsd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Gsm:is(:hover,:focus)) .locrain-Gsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Gsm:is(:hover,:focus)) ~ .mode .locrain-Gsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Gsm:is(:hover,:focus)) .locrain-Gsm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Asd:is(:hover,:focus)) .locrain-Asd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Asd:is(:hover,:focus)) ~ .mode .locrain-Asd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Asd:is(:hover,:focus)) .locrain-Asd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Dsm:is(:hover,:focus)) .locrain-Dsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Dsm:is(:hover,:focus)) ~ .mode .locrain-Dsm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Dsm:is(:hover,:focus)) .locrain-Dsm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Esd:is(:hover,:focus)) .locrain-Esd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Esd:is(:hover,:focus)) ~ .mode .locrain-Esd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Esd:is(:hover,:focus)) .locrain-Esd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Bbm:is(:hover,:focus)) .locrain-Bbm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Bbm:is(:hover,:focus)) ~ .mode .locrain-Bbm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Bbm:is(:hover,:focus)) .locrain-Bbm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Cd:is(:hover,:focus)) .locrain-Cd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Cd:is(:hover,:focus)) ~ .mode .locrain-Cd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Cd:is(:hover,:focus)) .locrain-Cd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Fm:is(:hover,:focus)) .locrain-Fm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Fm:is(:hover,:focus)) ~ .mode .locrain-Fm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Fm:is(:hover,:focus)) .locrain-Fm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Gd:is(:hover,:focus)) .locrain-Gd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Gd:is(:hover,:focus)) ~ .mode .locrain-Gd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Gd:is(:hover,:focus)) .locrain-Gd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Cm:is(:hover,:focus)) .locrain-Cm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Cm:is(:hover,:focus)) ~ .mode .locrain-Cm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Cm:is(:hover,:focus)) .locrain-Cm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Dd:is(:hover,:focus)) .locrain-Dd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Dd:is(:hover,:focus)) ~ .mode .locrain-Dd-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Dd:is(:hover,:focus)) .locrain-Dd:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Gm:is(:hover,:focus)) .locrain-Gm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Gm:is(:hover,:focus)) ~ .mode .locrain-Gm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Gm:is(:hover,:focus)) .locrain-Gm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Ad:is(:hover,:focus)) .locrain-Ad-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Ad:is(:hover,:focus)) ~ .mode .locrain-Ad-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Ad:is(:hover,:focus)) .locrain-Ad:is(:hover,:focus) { color: red; }
 
-#mode-locrain:checked ~ .circle:has(.locrain-Dm:is(:hover,:focus)) .locrain-Dm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Dm:is(:hover,:focus)) ~ .mode .locrain-Dm-related,
-#mode-locrain:checked ~ .circle:has(.locrain-Dm:is(:hover,:focus)) .locrain-Dm:is(:hover,:focus) { color: red; }
+#mode-locrain:checked ~ .circle:has(.locrain-Ed:is(:hover,:focus)) .locrain-Ed-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Ed:is(:hover,:focus)) ~ .mode .locrain-Ed-related,
+#mode-locrain:checked ~ .circle:has(.locrain-Ed:is(:hover,:focus)) .locrain-Ed:is(:hover,:focus) { color: red; }
