@@ -228,3 +228,56 @@ input[type="radio"] { display: none; }
 #mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) .dorian-Dm-related,
 #mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .mode .dorian-Dm-related,
 #mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) .dorian-Dm:is(:hover,:focus) { color: red; }
+
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/* AEOLIAN                                                                     */
+/* ══════════════════════════════════════════════════════════════════════════ */
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) .aeolian-Am-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .mode .aeolian-Am-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) .aeolian-Am:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) .aeolian-Em-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .mode .aeolian-Em-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) .aeolian-Em:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) .aeolian-Bm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .mode .aeolian-Bm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) .aeolian-Bm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) .aeolian-Fsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .mode .aeolian-Fsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) .aeolian-Fsm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) .aeolian-Csm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .mode .aeolian-Csm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) .aeolian-Csm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) .aeolian-Gsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .mode .aeolian-Gsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) .aeolian-Gsm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) .aeolian-Dsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .mode .aeolian-Dsm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) .aeolian-Dsm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) .aeolian-Bbm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .mode .aeolian-Bbm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) .aeolian-Bbm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) .aeolian-Fm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .mode .aeolian-Fm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) .aeolian-Fm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) .aeolian-Cm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .mode .aeolian-Cm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) .aeolian-Cm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) .aeolian-Gm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .mode .aeolian-Gm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) .aeolian-Gm:is(:hover,:focus) { color: red; }
+
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) .aeolian-Dm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .mode .aeolian-Dm-related,
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) .aeolian-Dm:is(:hover,:focus) { color: red; }
