@@ -9,7 +9,13 @@ input[type="radio"] { display: none; }
 }
 
 #mode-ionian:checked ~ .mode .mode-label[for="mode-ionian"],
-#mode-lydian:checked  ~ .mode .mode-label[for="mode-lydian"] {
+#mode-lydian:checked  ~ .mode .mode-label[for="mode-lydian"],
+#mode-mixolydian:checked  ~ .mode .mode-label[for="mode-mixolydian"],
+#mode-dorian:checked  ~ .mode .mode-label[for="mode-dorian"],
+#mode-aeolian:checked  ~ .mode .mode-label[for="mode-aeolian"],
+#mode-phrygian:checked  ~ .mode .mode-label[for="mode-phrygian"],
+#mode-locrain:checked  ~ .mode .mode-label[for="mode-locrain"]
+{
   opacity: 1;
 }
 
