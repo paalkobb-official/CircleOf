@@ -1,0 +1,47 @@
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) .ionian-C-related,
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .mode .ionian-C-related,
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) .ionian-C:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-G:is(:hover,:focus)) .ionian-G-related,
+#mode-ionian:checked ~ .circle:has(.ionian-G:is(:hover,:focus)) ~ .mode .ionian-G-related,
+#mode-ionian:checked ~ .circle:has(.ionian-G:is(:hover,:focus)) .ionian-G:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-D:is(:hover,:focus)) .ionian-D-related,
+#mode-ionian:checked ~ .circle:has(.ionian-D:is(:hover,:focus)) ~ .mode .ionian-D-related,
+#mode-ionian:checked ~ .circle:has(.ionian-D:is(:hover,:focus)) .ionian-D:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-A:is(:hover,:focus)) .ionian-A-related,
+#mode-ionian:checked ~ .circle:has(.ionian-A:is(:hover,:focus)) ~ .mode .ionian-A-related,
+#mode-ionian:checked ~ .circle:has(.ionian-A:is(:hover,:focus)) .ionian-A:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-E:is(:hover,:focus)) .ionian-E-related,
+#mode-ionian:checked ~ .circle:has(.ionian-E:is(:hover,:focus)) ~ .mode .ionian-E-related,
+#mode-ionian:checked ~ .circle:has(.ionian-E:is(:hover,:focus)) .ionian-E:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-B:is(:hover,:focus)) .ionian-B-related,
+#mode-ionian:checked ~ .circle:has(.ionian-B:is(:hover,:focus)) ~ .mode .ionian-B-related,
+#mode-ionian:checked ~ .circle:has(.ionian-B:is(:hover,:focus)) .ionian-B:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-Fs:is(:hover,:focus)) .ionian-Fs-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Fs:is(:hover,:focus)) ~ .mode .ionian-Fs-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Fs:is(:hover,:focus)) .ionian-Fs:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-Db:is(:hover,:focus)) .ionian-Db-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Db:is(:hover,:focus)) ~ .mode .ionian-Db-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Db:is(:hover,:focus)) .ionian-Db:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-Ab:is(:hover,:focus)) .ionian-Ab-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Ab:is(:hover,:focus)) ~ .mode .ionian-Ab-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Ab:is(:hover,:focus)) .ionian-Ab:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-Eb:is(:hover,:focus)) .ionian-Eb-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Eb:is(:hover,:focus)) ~ .mode .ionian-Eb-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Eb:is(:hover,:focus)) .ionian-Eb:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-Bb:is(:hover,:focus)) .ionian-Bb-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Bb:is(:hover,:focus)) ~ .mode .ionian-Bb-related,
+#mode-ionian:checked ~ .circle:has(.ionian-Bb:is(:hover,:focus)) .ionian-Bb:is(:hover,:focus) { color: red; }
+
+#mode-ionian:checked ~ .circle:has(.ionian-F:is(:hover,:focus)) .ionian-F-related,
+#mode-ionian:checked ~ .circle:has(.ionian-F:is(:hover,:focus)) ~ .mode .ionian-F-related,
+#mode-ionian:checked ~ .circle:has(.ionian-F:is(:hover,:focus)) .ionian-F:is(:hover,:focus) { color: red; }

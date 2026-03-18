@@ -1,0 +1,47 @@
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) .lydian-C-related,
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .mode .lydian-C-related,
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) .lydian-C:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) .lydian-G-related,
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .mode .lydian-G-related,
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) .lydian-G:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) .lydian-D-related,
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .mode .lydian-D-related,
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) .lydian-D:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) .lydian-A-related,
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .mode .lydian-A-related,
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) .lydian-A:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) .lydian-E-related,
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .mode .lydian-E-related,
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) .lydian-E:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) .lydian-B-related,
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .mode .lydian-B-related,
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) .lydian-B:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) .lydian-Fs-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .mode .lydian-Fs-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) .lydian-Fs:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) .lydian-Db-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .mode .lydian-Db-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) .lydian-Db:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) .lydian-Ab-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .mode .lydian-Ab-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) .lydian-Ab:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) .lydian-Eb-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .mode .lydian-Eb-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) .lydian-Eb:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) .lydian-Bb-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .mode .lydian-Bb-related,
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) .lydian-Bb:is(:hover,:focus) { color: lightgreen; }
+
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) .lydian-F-related,
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .mode .lydian-F-related,
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) .lydian-F:is(:hover,:focus) { color: lightgreen; }

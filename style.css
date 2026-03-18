@@ -17,6 +17,30 @@
   --r-inner:       20vh;   /* major notes ring */
   --offset:        -90deg;
 }
+
+.mode-ionian {
+    color: red;
+}
+
+.mode-lydian {
+    color: lightgreen;
+}
+.mode-mixolydian {
+    color: blue;
+}
+.mode-dorian {
+    color: yellow;
+}
+.mode-aeolian {
+    color: pink;
+}
+.mode-phrygian {
+    color: purple;
+}
+.mode-locrain {
+    color: orange;
+}
+
  
 body {
   background: var(--bg);
