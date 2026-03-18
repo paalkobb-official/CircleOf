@@ -281,3 +281,55 @@ input[type="radio"] { display: none; }
 #mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) .aeolian-Dm-related,
 #mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .mode .aeolian-Dm-related,
 #mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) .aeolian-Dm:is(:hover,:focus) { color: red; }
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/* PHRYGIAN                                                                     */
+/* ══════════════════════════════════════════════════════════════════════════ */
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) .phrygian-Am-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .mode .phrygian-Am-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) .phrygian-Am:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) .phrygian-Em-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .mode .phrygian-Em-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) .phrygian-Em:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) .phrygian-Bm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .mode .phrygian-Bm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) .phrygian-Bm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) .phrygian-Fsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .mode .phrygian-Fsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) .phrygian-Fsm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) .phrygian-Csm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .mode .phrygian-Csm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) .phrygian-Csm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) .phrygian-Gsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .mode .phrygian-Gsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) .phrygian-Gsm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) .phrygian-Dsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .mode .phrygian-Dsm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) .phrygian-Dsm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) .phrygian-Bbm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .mode .phrygian-Bbm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) .phrygian-Bbm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) .phrygian-Fm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .mode .phrygian-Fm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) .phrygian-Fm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) .phrygian-Cm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .mode .phrygian-Cm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) .phrygian-Cm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) .phrygian-Gm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .mode .phrygian-Gm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) .phrygian-Gm:is(:hover,:focus) { color: red; }
+
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) .phrygian-Dm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .mode .phrygian-Dm-related,
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) .phrygian-Dm:is(:hover,:focus) { color: red; }
