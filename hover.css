@@ -176,3 +176,55 @@ input[type="radio"] { display: none; }
 #mode-mixolydian:checked ~ .circle:has(.mixolydian-F:is(:hover,:focus)) .mixolydian-F-related,
 #mode-mixolydian:checked ~ .circle:has(.mixolydian-F:is(:hover,:focus)) ~ .mode .mixolydian-F-related,
 #mode-mixolydian:checked ~ .circle:has(.mixolydian-F:is(:hover,:focus)) .mixolydian-F:is(:hover,:focus) { color: red; }
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+/* Dorian                                                                 */
+/* ══════════════════════════════════════════════════════════════════════════ */
+
+#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) .dorian-C-related,
+#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) ~ .mode .dorian-C-related,
+#mode-dorian:checked ~ .circle:has(.dorian-C:is(:hover,:focus)) .dorian-C:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) .dorian-G-related,
+#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) ~ .mode .dorian-G-related,
+#mode-dorian:checked ~ .circle:has(.dorian-G:is(:hover,:focus)) .dorian-G:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) .dorian-D-related,
+#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) ~ .mode .dorian-D-related,
+#mode-dorian:checked ~ .circle:has(.dorian-D:is(:hover,:focus)) .dorian-D:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) .dorian-A-related,
+#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) ~ .mode .dorian-A-related,
+#mode-dorian:checked ~ .circle:has(.dorian-A:is(:hover,:focus)) .dorian-A:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) .dorian-E-related,
+#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) ~ .mode .dorian-E-related,
+#mode-dorian:checked ~ .circle:has(.dorian-E:is(:hover,:focus)) .dorian-E:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) .dorian-B-related,
+#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) ~ .mode .dorian-B-related,
+#mode-dorian:checked ~ .circle:has(.dorian-B:is(:hover,:focus)) .dorian-B:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) .dorian-Fs-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) ~ .mode .dorian-Fs-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Fs:is(:hover,:focus)) .dorian-Fs:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) .dorian-Db-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) ~ .mode .dorian-Db-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Db:is(:hover,:focus)) .dorian-Db:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) .dorian-Ab-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) ~ .mode .dorian-Ab-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Ab:is(:hover,:focus)) .dorian-Ab:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) .dorian-Eb-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) ~ .mode .dorian-Eb-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Eb:is(:hover,:focus)) .dorian-Eb:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) .dorian-Bb-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) ~ .mode .dorian-Bb-related,
+#mode-dorian:checked ~ .circle:has(.dorian-Bb:is(:hover,:focus)) .dorian-Bb:is(:hover,:focus) { color: red; }
+
+#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) .dorian-F-related,
+#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) ~ .mode .dorian-F-related,
+#mode-dorian:checked ~ .circle:has(.dorian-F:is(:hover,:focus)) .dorian-F:is(:hover,:focus) { color: red; }
