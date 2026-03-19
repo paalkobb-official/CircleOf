@@ -1,10 +1,10 @@
-@import "ionian.css";
-@import "lydian.css";
-@import "mixolydian.css";
-@import "dorian.css";
-@import "aeolian.css";
-@import "phrygian.css";
-@import "locrain.css";
+@import "styles/modes/ionian.css";
+@import "styles/modes/lydian.css";
+@import "styles/modes/mixolydian.css";
+@import "styles/modes/dorian.css";
+@import "styles/modes/aeolian.css";
+@import "styles/modes/phrygian.css";
+@import "styles/modes/locrain.css";
 
 
 /* ── Hide radio buttons ───────────────────────────────────────────────────── */

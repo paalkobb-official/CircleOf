@@ -1,0 +1,113 @@
+/* ============================================================
+   PIANO CHORD HOVER LOGIC — LYDIAN MODE
+   Scale degrees: I   II  iii  #iv°  V   vi  vii
+   Chord types:   maj maj min  dim   maj min min
+   ============================================================ */
+
+/* C Lydian: C  D  Em  F#°  G  Am  Bm */
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-Fsd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-C:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+
+/* G Lydian: G  A  Bm  C#°  D  Em  F#m */
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-Csd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-G:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+
+/* D Lydian: D  E  F#m  G#°  A  Bm  C#m */
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-Gsd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-D:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+
+/* A Lydian: A  B  C#m  D#°  E  F#m  G#m */
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-Dsd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-A:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+
+/* E Lydian: E  F#  G#m  A#°  B  C#m  D#m */
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-Asd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-E:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+
+/* B Lydian: B  C#  D#m  E#°  F#  G#m  A#m */
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Esd { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-B:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+
+/* F# Lydian: F#  G#  A#m  B#°  C#  D#m  E#m */
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Cd  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Fs:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+
+/* Db Lydian: Db  Eb  Fm  G°  Ab  Bbm  Cm */
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Gd  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Db:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+
+/* Ab Lydian: Ab  Bb  Cm  D°  Eb  Fm  Gm */
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Dd  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Ab:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+
+/* Eb Lydian: Eb  F  Gm  A°  Bb  Cm  Dm */
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Ad  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Eb:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+
+/* Bb Lydian: Bb  C  Dm  E°  F  Gm  Am */
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-Ed  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-Bb:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+
+/* F Lydian: F  G  Am  B°  C  Dm  Em */
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-Bd  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-lydian:checked ~ .circle:has(.lydian-F:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }

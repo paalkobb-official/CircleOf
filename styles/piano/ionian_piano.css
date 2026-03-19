@@ -1,5 +1,4 @@
 
-
 /* C Ionian: C  Dm  Em  F  G  Am  B° */
 #mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .piano .chord-C  { display: block; }
 #mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .piano .chord-Dm { display: block; }
