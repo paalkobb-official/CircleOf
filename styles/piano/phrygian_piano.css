@@ -1,0 +1,113 @@
+/* ============================================================
+   PHRYGIAN MODE
+   Each minor key uses its parent Ionian chord set
+   Em Phrygian = C Ionian, Bm Phrygian = G Ionian, etc.
+   ============================================================ */
+
+/* Em Phrygian = C Ionian: C  Dm  Em  F  G  Am  B° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Em:is(:hover,:focus)) ~ .piano .chord-Bd  { display: block; }
+
+/* Bm Phrygian = G Ionian: G  Am  Bm  C  D  Em  F#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bm:is(:hover,:focus)) ~ .piano .chord-Fsd { display: block; }
+
+/* F#m Phrygian = D Ionian: D  Em  F#m  G  A  Bm  C#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fsm:is(:hover,:focus)) ~ .piano .chord-Csd { display: block; }
+
+/* C#m Phrygian = A Ionian: A  Bm  C#m  D  E  F#m  G#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Csm:is(:hover,:focus)) ~ .piano .chord-Gsd { display: block; }
+
+/* G#m Phrygian = E Ionian: E  F#m  G#m  A  B  C#m  D#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gsm:is(:hover,:focus)) ~ .piano .chord-Dsd { display: block; }
+
+/* D#m Phrygian = B Ionian: B  C#m  D#m  E  F#  G#m  A#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dsm:is(:hover,:focus)) ~ .piano .chord-Asd { display: block; }
+
+/* Bbm Phrygian = F# Ionian: F#  G#m  A#m  B  C#  D#m  E#° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Bbm:is(:hover,:focus)) ~ .piano .chord-Esd { display: block; }
+
+/* Fm Phrygian = Db Ionian: Db  Ebm  Fm  Gb  Ab  Bbm  C° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Fm:is(:hover,:focus)) ~ .piano .chord-Cd  { display: block; }
+
+/* Cm Phrygian = Ab Ionian: Ab  Bbm  Cm  Db  Eb  Fm  G° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Cm:is(:hover,:focus)) ~ .piano .chord-Gd  { display: block; }
+
+/* Gm Phrygian = Eb Ionian: Eb  Fm  Gm  Ab  Bb  Cm  D° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Gm:is(:hover,:focus)) ~ .piano .chord-Dd  { display: block; }
+
+/* Dm Phrygian = Bb Ionian: Bb  Cm  Dm  Eb  F  Gm  A° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Dm:is(:hover,:focus)) ~ .piano .chord-Ad  { display: block; }
+
+/* Am Phrygian = F Ionian: F  Gm  Am  Bb  C  Dm  E° */
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-phrygian:checked ~ .circle:has(.phrygian-Am:is(:hover,:focus)) ~ .piano .chord-Ed  { display: block; }

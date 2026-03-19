@@ -1,0 +1,113 @@
+/* ============================================================
+   DORIAN MODE
+   Each minor key uses its parent Lydian chord set
+   Am Dorian = C Lydian, Em Dorian = G Lydian, etc.
+   ============================================================ */
+
+/* Am Dorian = C Lydian: C  D  Em  F#°  G  Am  Bm */
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-Fsd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Am:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+
+/* Em Dorian = G Lydian: G  A  Bm  C#°  D  Em  F#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-Csd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Em:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+
+/* Bm Dorian = D Lydian: D  E  F#m  G#°  A  Bm  C#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-Gsd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+
+/* F#m Dorian = A Lydian: A  B  C#m  D#°  E  F#m  G#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-Dsd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+
+/* C#m Dorian = E Lydian: E  F#  G#m  A#°  B  C#m  D#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-Asd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Csm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+
+/* G#m Dorian = B Lydian: B  C#  D#m  E#°  F#  G#m  A#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Esd { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gsm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+
+/* D#m Dorian = F# Lydian: F#  G#  A#m  B#°  C#  D#m  E#m */
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Cd  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dsm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+
+/* Bbm Dorian = Db Lydian: Db  Eb  Fm  G°  Ab  Bbm  Cm */
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Gd  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Bbm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+
+/* Fm Dorian = Ab Lydian: Ab  Bb  Cm  D°  Eb  Fm  Gm */
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Dd  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Fm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+
+/* Cm Dorian = Eb Lydian: Eb  F  Gm  A°  Bb  Cm  Dm */
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Ad  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Cm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+
+/* Gm Dorian = Bb Lydian: Bb  C  Dm  E°  F  Gm  Am */
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-Ed  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Gm:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+
+/* Dm Dorian = F Lydian: F  G  Am  B°  C  Dm  Em */
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-Bd  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-dorian:checked ~ .circle:has(.dorian-Dm:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }

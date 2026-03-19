@@ -1,0 +1,113 @@
+/* ============================================================
+   AEOLIAN MODE
+   Each minor key uses its parent Ionian chord set
+   Am Aeolian = C Ionian, Em Aeolian = G Ionian, etc.
+   ============================================================ */
+
+/* Am Aeolian = C Ionian: C  Dm  Em  F  G  Am  B° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Am:is(:hover,:focus)) ~ .piano .chord-Bd  { display: block; }
+
+/* Em Aeolian = G Ionian: G  Am  Bm  C  D  Em  F#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Em:is(:hover,:focus)) ~ .piano .chord-Fsd { display: block; }
+
+/* Bm Aeolian = D Ionian: D  Em  F#m  G  A  Bm  C#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-Em  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-G   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bm:is(:hover,:focus)) ~ .piano .chord-Csd { display: block; }
+
+/* F#m Aeolian = A Ionian: A  Bm  C#m  D  E  F#m  G#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-Bm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-D   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fsm:is(:hover,:focus)) ~ .piano .chord-Gsd { display: block; }
+
+/* C#m Aeolian = E Ionian: E  F#m  G#m  A  B  C#m  D#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-Fsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-A   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Csm:is(:hover,:focus)) ~ .piano .chord-Dsd { display: block; }
+
+/* G#m Aeolian = B Ionian: B  C#m  D#m  E  F#  G#m  A#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-Csm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-E   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gsm:is(:hover,:focus)) ~ .piano .chord-Asd { display: block; }
+
+/* D#m Aeolian = F# Ionian: F#  G#m  A#m  B  C#  D#m  E#° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Gsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-B   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dsm:is(:hover,:focus)) ~ .piano .chord-Esd { display: block; }
+
+/* Bbm Aeolian = Db Ionian: Db  Ebm  Fm  Gb  Ab  Bbm  C° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Dsm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Fs  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Bbm:is(:hover,:focus)) ~ .piano .chord-Cd  { display: block; }
+
+/* Fm Aeolian = Ab Ionian: Ab  Bbm  Cm  Db  Eb  Fm  G° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Bbm { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Db  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Fm:is(:hover,:focus)) ~ .piano .chord-Gd  { display: block; }
+
+/* Cm Aeolian = Eb Ionian: Eb  Fm  Gm  Ab  Bb  Cm  D° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Fm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Ab  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Cm:is(:hover,:focus)) ~ .piano .chord-Dd  { display: block; }
+
+/* Gm Aeolian = Bb Ionian: Bb  Cm  Dm  Eb  F  Gm  A° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Cm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Eb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Gm:is(:hover,:focus)) ~ .piano .chord-Ad  { display: block; }
+
+/* Dm Aeolian = F Ionian: F  Gm  Am  Bb  C  Dm  E° */
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-F   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-Gm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-Am  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-Bb  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-C   { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-Dm  { display: block; }
+#mode-aeolian:checked ~ .circle:has(.aeolian-Dm:is(:hover,:focus)) ~ .piano .chord-Ed  { display: block; }

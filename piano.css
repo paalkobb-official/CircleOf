@@ -1,6 +1,10 @@
 @import "styles/piano/ionian_piano.css";
 @import "styles/piano/lydian_piano.css";
 @import "styles/piano/mixolydian_piano.css";
+@import "styles/piano/dorian_piano.css";
+@import "styles/piano/aeolian_piano.css";
+@import "styles/piano/phrygian_piano.css";
+@import "styles/piano/locrain_piano.css";
 
 
 piano-chord {
