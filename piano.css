@@ -1,0 +1,138 @@
+piano-chord {
+  /* from attr() */
+  --_keys: attr(keys type(<number>), 8); /* number of keys */
+   /* to make it work in Safari, we need to hardcode it (for now): */
+   --_keys: 14;
+
+  /* public properties */
+  --piano-chord-black-key: #000;
+  --piano-chord-white-key: #FFF;
+  --piano-chord-key-gap: 2px;
+
+  /* private properties */
+  --_octave-keys: 7;
+  --_ow: calc(100% / (var(--_keys) / var(--_octave-keys))); /* octave width  */
+  --_r: calc(var(--_keys) / var(--_octave-keys) * 0.6); /* ratio of black key compared to white key (60%) */
+  --_wkw: calc(100% / var(--_keys)); /* white key width  */
+  --_bkw: calc(var(--_wkw) * var(--_r)); /* black key width  */
+
+  --_off1: calc(0.7 / var(--_octave-keys) * 100%);
+  --_off2: calc(1.7 / var(--_octave-keys) * 100%);
+  --_off3: calc(3.7 / var(--_octave-keys) * 100%);
+  --_off4: calc(4.7 / var(--_octave-keys) * 100%);
+  --_off5: calc(5.7 / var(--_octave-keys) * 100%);
+  
+  background-color: var(--piano-chord-white-key);
+  background-image:
+    /* Black Keys */
+    linear-gradient(90deg,#0000 0 var(--_off1), var(--piano-chord-black-key) var(--_off1) calc(var(--_off1) + var(--_bkw)),#0000 0),
+    linear-gradient(90deg,#0000 0 var(--_off2), var(--piano-chord-black-key) var(--_off2) calc(var(--_off2) + var(--_bkw)),#0000 0),
+    linear-gradient(90deg,#0000 0 var(--_off3), var(--piano-chord-black-key) var(--_off3) calc(var(--_off3) + var(--_bkw)),#0000 0),
+    linear-gradient(90deg,#0000 0 var(--_off4), var(--piano-chord-black-key) var(--_off4) calc(var(--_off4) + var(--_bkw)),#0000 0),
+    linear-gradient(90deg,#0000 0 var(--_off5), var(--piano-chord-black-key) var(--_off5) calc(var(--_off5) + var(--_bkw)),#0000 0),
+    
+    /* White key separators */
+    linear-gradient(90deg, var(--piano-chord-black-key) var(--piano-chord-key-gap), #0000 0 var(--piano-chord-key-gap));
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size:
+    var(--_ow) 60%,
+    var(--_ow) 60%,
+    var(--_ow) 60%,
+    var(--_ow) 60%,
+    var(--_ow) 60%,
+    calc(100% / var(--_keys) - (var(--piano-chord-key-gap) / var(--_keys))) 100%;
+  border-block: var(--piano-chord-key-gap) solid var(--piano-chord-black-key);
+  display: grid;
+  grid-template-columns: repeat(var(--_keys), 1fr);
+  grid-template-rows: 1fr;
+  height: 50px;
+  width: 100%;
+}
+
+piano-key { display: inline-grid; }
+piano-key::after {
+  background: var(--_bg, #000);
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 10px;
+  margin-block: 8px;
+  place-self: end center;
+  width: 10px;
+}
+
+piano-key[note="C"] {  grid-column: 1; }
+piano-key[note="C#"] { grid-column: 1; }
+piano-key[note="D"] {  grid-column: 2; }
+piano-key[note="Db"] { grid-column: 2; }
+piano-key[note="D#"] { grid-column: 2; }
+piano-key[note="E"] {  grid-column: 3; }
+piano-key[note="Eb"] { grid-column: 3; }
+piano-key[note="F"] {  grid-column: 4; }
+piano-key[note="F#"] { grid-column: 4; }
+piano-key[note="G"] {  grid-column: 5; }
+piano-key[note="Gb"] { grid-column: 5; }
+piano-key[note="G#"] { grid-column: 5; }
+piano-key[note="A"] {  grid-column: 6; }
+piano-key[note="Ab"] { grid-column: 6; }
+piano-key[note="A#"] { grid-column: 6; }
+piano-key[note="B"] {  grid-column: 7; }
+piano-key[note="Bb"] { grid-column: 7; }
+piano-key[note="C2"] {  grid-column: 8; }
+piano-key[note="C#2"] { grid-column: 8; }
+piano-key[note="D2"] {  grid-column: 9; }
+piano-key[note="Db2"] { grid-column: 9; }
+piano-key[note="D#2"] { grid-column: 9; }
+piano-key[note="E2"] {  grid-column: 10; }
+piano-key[note="Eb2"] { grid-column: 10; }
+piano-key[note="F2"] {  grid-column: 11; }
+piano-key[note="F#2"] { grid-column: 11; }
+piano-key[note="G2"] {  grid-column: 12; }
+piano-key[note="Gb2"] { grid-column: 12; }
+piano-key[note="G#2"] { grid-column: 12; }
+piano-key[note="Ab2"] { grid-column: 13; }
+piano-key[note="Bb2"] { grid-column: 14; }
+
+piano-key[note*="#"] { translate: 50% -40%; }
+piano-key[note*="b"] { translate: -50% -40%; }
+
+/* Demo styles */
+.blue { --_bg: #42A3BD; }
+.pink { --_bg: #F1919C; }
+.red { --_bg: #fc260a; --_c: #FFF; }
+.orange { --_bg: #ff4901; --_c: #FFF; }
+.yellow { --_bg: #f49118; }
+.hotpink { --_bg: #BD3F63; --_c: #FFF; }
+.beige { --_bg: #DBC8B1; }
+.sage { --_bg: #A3B18A; }
+.chord {
+  background: var(--_bg) url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  border-radius: 1ch;
+  color: var(--_c, #000);
+  display: grid;
+  gap: 1ch;
+  padding: 1.5ch 2ch 2ch;
+  h2 {
+    font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-box: text;
+  } 
+}
+.piano {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/**************************HOVER LOGIC ************************/
+
+.piano .chord { display: none; }
+
+/* Hovering C in Ionian mode → show C chord + its related chords (G, F) */
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .piano .chord-C { display: block; }
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .piano .chord-G { display: block; }
+#mode-ionian:checked ~ .circle:has(.ionian-C:is(:hover,:focus)) ~ .piano .chord-F { display: block; }

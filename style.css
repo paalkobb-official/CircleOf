@@ -21,7 +21,6 @@
 .mode-ionian {
     color: red;
 }
-
 .mode-lydian {
     color: lightgreen;
 }
@@ -48,15 +47,19 @@ body {
   font-family: var(--font-body);
   min-height: 100vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-
 
 .mode {
-    position: absolute;
-    left: 10px;
+  margin-right: auto;
 }
+
+.piano {
+  margin-left: auto;
+}
+
  
 /* ── Circle container ─────────────────────────────────────────────────────── */
 .circle {
